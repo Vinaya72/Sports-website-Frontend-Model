@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+    <title>Document2</title>
+
+</head>
+<body>
+
+      <header id="home" class="header">
+        <nav class="navigation">
+          <div class="nav-center container">
+            <a href="index.html" class="logo">
+              <h1>SPORTS</h1>
+            </a>
+    
+            <div class="nav-menu">
+              <div class="nav-top">
+                <div class="logo">
+                  <h1>SPORTS</h1>
+                </div>
+                <div class="close">
+                  <i class="fas fa-times"></i>
+                </div>
+              </div>
+    
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="sports.html" class="nav-link">SPORTS EQUIPMENTS</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a href="city.html" class="nav-link">CITY EVENTS</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a href="store.html" class="nav-link">CITY STORE</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="nav-icons">
+              <span style="margin-right: 3rem;"><a href="/"><i class="far fa-user fa-lg" style="color: black;"></i></a></span>
+              <span><a href="/"><i class="fas fa-shopping-cart fa-lg" style="color: black;"></i></a></span>
+            </div>
+    
+            <div class="hamburger">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+
+        <div class="all-products container">
+            <div class="search-box">
+                <form action="" onsubmit="return flase">
+                  <input type="text" id="search" placeholder="search product">
+                </form>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span><i class="fas fa-filter"></i> Filter</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#" data-filter="all">all</a></li>
+                  <li><a class="dropdown-item" href="#" data-filter="sports-eq">Sports Equipments</a></li>
+                  <li><a class="dropdown-item" href="#" data-filter="activewear">Activewear</a></li>
+                  <li><a class="dropdown-item" href="#" data-filter="gadgets">Fitness Gadgets</a></li>
+    
+                </ul>
+            </div>
+        </div>
+       
+      </header>
+
+      <main>
+        <section>
+            <div class="product-center container">
+                <div class="product sports-eq shoe">
+                    <div class="product-header">
+                      <img src="images/shoe-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Running Shoe</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>2000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product gadgets headphone">
+                    <div class="product-header">
+                      <img src="images/headphone-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Headphone</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>3000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq racket">
+                    <div class="product-header">
+                      <img src="images/Racquet-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Racket</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>1000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq football">
+                    <div class="product-header">
+                      <img src="images/football-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Football</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>500</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq shoe">
+                    <div class="product-header">
+                      <img src="images/shoe-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Running Shoe</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>2000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product gadgets headphone">
+                    <div class="product-header">
+                      <img src="images/headphone-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Headphone</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>3000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq racket">
+                    <div class="product-header">
+                      <img src="images/Racquet-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Racket</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>1000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq football">
+                    <div class="product-header">
+                      <img src="images/football-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Football</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>500</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq shoe">
+                    <div class="product-header">
+                      <img src="images/shoe-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Running Shoe</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>2000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product gadgets headphone">
+                    <div class="product-header">
+                      <img src="images/headphone-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Headphone</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>3000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq racket">
+                    <div class="product-header">
+                      <img src="images/Racquet-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Racket</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>1000</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+                <div class="product sports-eq football">
+                    <div class="product-header">
+                      <img src="images/football-removebg-preview.png" alt="product">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Football</h3>
+                      <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="product-price">
+                        <h4><i class="fas fa-rupee-sign"></i>500</h4>
+                      </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="page-tracker container">
+            <span class="footer-icon"><a href="#" style="color: black;"><i class="fas fa-arrow-left fa-lg"></i></a></span>
+            <span class="footer-icon"><a href="#" style="color: black;"><i class="fas fa-arrow-right fa-lg"></i></a></span>
+
+        </section>
+            
+        </main>
+            
+  
+
+        <footer id="footer" class="section footer">
+          <div class="container">
+            <div class="footer-container">
+              <div class="footer-center">
+                <h3>INFORMATION</h3>
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Site Map</a>
+              </div>
+              <div class="footer-center">
+              <h3>My ACCOUNT</h3>
+                <a href="#">My Account</a>
+                <a href="#">Order History</a>
+                <a href="#">Cart</a>
+              </div>
+              <div class="footer-center">
+                <h3>CONTACT US</h3>
+                <div>
+                  <span>
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  ofnhui echri eciru ehnriuoi ecru
+                </div>
+                <div>
+                  <span>
+                    <i class="far fa-envelope"></i>
+                  </span>
+                  dnfuefecnr@gmail.com
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-phone"></i>
+                  </span>
+                  123-456-789
+                </div>
+                <div>
+                  <span>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                 djnhuec, ejhnr
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/filter.js"></script>
+</body>
+</html>
